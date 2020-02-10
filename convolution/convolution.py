@@ -34,8 +34,14 @@ sns.set_style("dark")
 colorPallete = [u'#BF2932',u'#949494',u'#7F222E']
 signal = np.zeros(100)
 signal[20:40] = 1
-
 kernel = np.linspace(0,1,5)
+'''
+t = np.linspace(0,10,100)
+signal = np.sin(t) + np.random.normal(0,0.2,100)
+kernel = np.sin(t)
+conv = convolution(signal,kernel)
+time = np.linspace(0,1/2.0, len(signal))
+'''
 
 conv = convolution(signal,kernel)
 plt.subplot(311)
