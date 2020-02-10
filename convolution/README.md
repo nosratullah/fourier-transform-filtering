@@ -10,5 +10,6 @@ Convolution is an extension of dot-product, in which the dot-product is computed
 
 ![conv](https://user-images.githubusercontent.com/13776994/74149189-6f666c00-4c1c-11ea-8a86-6c25d4e8c422.png)
 
+![sin_conv](https://user-images.githubusercontent.com/13776994/74157553-b872ec00-4c2d-11ea-8202-02299326ae98.png)
 
 
