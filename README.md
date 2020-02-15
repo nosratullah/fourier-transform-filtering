@@ -15,3 +15,9 @@ https://towardsdatascience.com/fast-fourier-transform-937926e591cb
 Having multiple sin waves creating one signal is common when you deal with signals. For instance, while your brain does a task, different regions in your brain working together to achieve that task. Those different areas of your brain are usually oscillating in different frequencies and the result of it creates a complicated signal which you see in the EEG signal.
 As a neuroscience student, I have to consider these cooperations and to study only one area of the brain, I may need to filter out other sources. But these technic has a wide application in telecommunication, smoothing data by sub-pressing noises and in general studying any time-series which has periodic sources as well. Talking of noise, as we saw above the convolution of a simple line shape kernel with a signal also smooth the signal and remove the sharp edges of the signal. But convolution is not the best method of reducing the noise when it comes to perfection.
 <img src="https://miro.medium.com/max/4984/1*A5sQQLqezMgUEAxxzgv81g.png">
+
+What we did is that we filtered the Fourier transform signal and then reverse it to the original signal. And once we do this process the noises from the main signal vanishes.
+<img src="https://miro.medium.com/max/4924/1*DQZm8sVp1lQYSv2GYULhhw.png">
+
+There is another kind of filtering in which the only thing remains is a narrow range in the frequency domain and all other frequencies are gone. So that you can focus on the exact oscillation you want.
+<img src="https://miro.medium.com/max/4892/1*-jPu3MAF6E1eaOthtM_igQ.png">
