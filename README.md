@@ -21,3 +21,7 @@ What we did is that we filtered the Fourier transform signal and then reverse it
 
 There is another kind of filtering in which the only thing remains is a narrow range in the frequency domain and all other frequencies are gone. So that you can focus on the exact oscillation you want.
 <img src="https://miro.medium.com/max/4892/1*-jPu3MAF6E1eaOthtM_igQ.png">
+
+Here is the link to the hole tutorial post in Medium:
+
+[Fourier transform and filtering](https://bit.ly/2OXJDUX)
